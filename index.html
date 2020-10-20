@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta 
+    name="description" 
+    content="prototype - a simple Web Component demo generated with Stencil" />
+  <meta 
+    name="viewport" 
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+  <title>AnalogClock 0.1.1</title>
+  <style>
+    :root {
+      --clrs-navy: #001f3f;
+      --clrs-blue: #0074d9;
+      --clrs-aqua: #7fdbff;
+      --clrs-teal: #39cccc;
+      --clrs-olive: #3d9970;
+      --clrs-green: #2ecc40;
+      --clrs-lime: #01ff70;
+      --clrs-yellow: #ffdc00;
+      --clrs-orange: #ff851b;
+      --clrs-red: #ff4136;
+      --clrs-maroon: #85144b;
+      --clrs-fuchsia: #f012be;
+      --clrs-purple: #b10dc9;
+      --clrs-black: #111111;
+      --clrs-gray: #aaaaaa;
+      --clrs-silver: #dddddd;
+
+      --clrs-bada55: #bada55;
+      --clrs-slate: #708090;
+      --clrs-slate4: #4e5964;
+      --clrs-white: #ffffff;
+    }
+
+    analog-clock {
+      --clock-circle-color: var(--clrs-navy);
+      --clock-hour-color: var(--clrs-navy);
+      --clock-minute-color: var(--clrs-navy);
+      --clock-second-color: var(--clrs-red);
+    }
+  </style>
+  <script type="module"
+    src='https://unpkg.com/analog-clock-components@0.1.1/dist/analog-clock/analog-clock.esm.js'></script>
+</head>
+
+<body>
+  <analog-clock />
+</body>
+
+</html>
